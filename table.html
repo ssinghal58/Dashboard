@@ -1,0 +1,85 @@
+<html>
+    <style>
+        table, td, th{
+            border: 1px, solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th{
+            background-color: #a2cbec;
+            color: #1d6097;
+        }
+
+        td{
+            background-color: white;
+        }
+
+        caption{
+            color: #1d6097;
+            
+        }
+        td{
+            text-align: right;
+            vertical-align: bottom;
+        }
+        .container{
+            display: block;
+            border: 1px solid black;
+            background-color: #d1f1f3;
+            margin: 0 auto;
+            width: 35%;
+            padding: 10px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <table border=1 id="cssTable">
+                <caption><b>Energy Expenditure for each Regions
+                        <br> (million dollars)</b><br><br>
+                </caption>
+                <tr>
+                    <th rowspan=4 colspan=2></th>
+                    <th colspan=2>Type</th>
+                </tr>
+                <tr>
+                    <th>Residential Customers</th>
+                    <th>Business Customers</th>
+                </tr>
+                <tr>
+                    <th>Expenditure</th>
+                    <th>Expenditure</th>
+                </tr>
+                <tr>
+                    <th>Sum</th>
+                    <th>Sum</th>
+                </tr>
+                <tr align="left">
+                    <th>Region</th>
+                    <th>Division</th>
+                    <td rowspan=2>$7,477</td>
+                    <td rowspan=2>$5,129</td>
+                </tr>
+                <tr >
+                    <th rowspan="2" align="left">Northeast</th>
+                    <th align="left">New England</th>
+                </tr>
+                <tr >
+                    <th align="left">Middle Atlantic</th>
+                    <td>$19,379</td>
+                    <td>$15,078</td>
+                </tr>
+                <tr >
+                    <th rowspan="2" align="left">West</th>
+                    <th align="left">Mountain</th>
+                    <td>$5,476</td>
+                    <td>$4,729</td>
+                </tr>
+                <tr >
+                    <th align="left">Pacific</th>
+                    <td>$13,959</td>
+                    <td>$12,619</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

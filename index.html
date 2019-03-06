@@ -1,0 +1,252 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h3>GeekyAnts</h3>
+        <h5> MAIN</h5>
+        <li><a href="#"><i class="fa fa-fw fa-home"></i> Dashboard <span class="icon dashboard">2</span></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-calendar"></i> Calendar</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-envelope"></i> Email<i class="icon fa fa-angle-right"></i></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-cube"></i> UI Elements<i class="icon fa fa-angle-right"></i></a></li>
+        <li><a href="#"><i class="far fa-fw fa-file-alt"></i> Forms<span class="icon forms">9</span></a></li>
+        <li><a href="#"><i class="fa fa-fw fa-pie-chart"></i> Charts<i class="icon fa fa-angle-right"></i></a></li>
+        <li><a href="#"><i class="fas fa-fw fa-th-large"></i> Tables<i class="icon fa fa-angle-right"></i></a></li>
+        <li><a href="#"><i class="far fa-fw fa-smile-beam"></i> Icons<i class="icon fa fa-angle-right"></i></a></li>
+        <li><a href="#"><i class="fas fa-fw fa-map-marker-alt"></i> Maps<span class="icon maps">2</span></a></li>
+    </div>
+
+    <div class="topnav">
+        <a href="javascript:;" id="sidebar-btn"><i class="fa fa-bars"></i></a>
+        <button type="submit" class="createBtn">Create <i class="fas fa-caret-down"></i></button>
+
+        <div class="topnav-right">
+            <a href="#">English <i class="fas fa-angle-down"></i></a>
+            <a href="#"><i class="fas fa-expand"></i></a>
+            <a href="#"><i class="fa fa-bell"></i>
+            <span class="badge">3</span></a>
+            <a href=""><img src="images/profile.png" style="width:25px"></a>
+        </div>
+        <div class="topnav-right">
+            <form class="inlineSearch">
+                <input type="text" placeholder=" Search.." class="inp">
+                <button class="searchBtn"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="flex-container space-between">
+            <div class="mainText">
+                <b>Dashboard</b><br>
+                <br>
+                <small>Welcome to Veltrix Dashboard</small>
+            </div>
+            <div>
+                <span><button class="settingsBtn"><i class="fa fa-fw fa-gear"></i> Settings</button></span>
+            </div>
+        </div><br>
+        
+        <div class="flex-container space-evenly">
+            <div class="flex-item">
+                <table class="card-tr">
+                    <tr>
+                        <td class="grid1" rowspan=2>HERE</td>
+                        <td class="grid2" rowspan=1>ORDERS</td>
+                        <td>
+                            <div class="triangle-right1"></div>
+                            <div class="rectangle" id="banner1"><div class="textRect">+12 %</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid3">1,685</td>
+                        <td class="grid3"><i class="incrIcon fas fa-arrow-up"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="grid4">Since last month</td>
+                        <td class="grid5"><i class="fas fa-arrow-right"></i></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex-item">
+                <table class="card-tr">
+                    <tr>
+                        <td class="grid1" rowspan=2>HERE</td>
+                        <td class="grid2">REVENUE</td>
+                        <td>
+                                <div class="triangle-right2"></div>
+                                <div class="rectangle" id="banner2"><div class="textRect">-28 %</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid3">52,368</td>
+                        <td class="grid3"><i class="decrIcon fas fa-arrow-down"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="grid4">Since last month</td>
+                        <td class="grid5"><i class="fas fa-arrow-right"></i></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex-item">
+                <table class="card-tr">
+                    <tr>
+                        <td class="grid1" rowspan=2>HERE</td>
+                        <td class="grid2">AVERAGE</td>
+                        <td>
+                                <div class="triangle-right3"></div>
+                                <div class="rectangle" id="banner3"><div class="textRect">00 %</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid3">15.8</td>
+                        <td class="grid3"><i class="incrIcon fas fa-arrow-up"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="grid4">Since last month</td>
+                        <td class="grid5"><i class="fas fa-arrow-right"></i></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex-item">
+                <table class="card-tr">
+                    <tr>
+                        <td class="grid1" rowspan=2>HERE</td>
+                        <td class="grid2">PRODUCT</td>
+                        <td>
+                                <div class="triangle-right4"></div>
+                                <div class="rectangle" id="banner4"><div class="textRect">+84 %</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid3">2436</td>
+                        <td class="grid3"><i class="incrIcon fas fa-arrow-up"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="grid4">Since last month</td>
+                        <td class="grid5"><i class="fas fa-arrow-right"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+         <br>
+         <div class="flex-container-trans-chat space-between">
+                <div>
+                    <table class="transaction-container trans-tr" rules="rows">
+                        <caption><b>Latest Transaction</b></caption>
+                        <th>(#)Id</th><th>Name</th><th>Date</th><th>Amount</th><th>Status</th><th></th>
+                        <tr>
+                            <td>#14256</td><td><i class="fa fa-user" aria-hidden="true"></i> Philip Smead</td><td>15/1/2018</td><td>$94</td>
+                            <td><span class="delivered">Delivered</span></td>
+                            <td>
+                                <button class="editBtn">Edit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#14256</td><td><i class="fa fa-user" aria-hidden="true"></i> Philip Smead</td><td>15/1/2018</td><td>$94</td>
+                            <td><span class="pending">Pending</span></td>
+                            <td>
+                                <button class="editBtn">Edit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#14256</td><td><i class="fa fa-user" aria-hidden="true"></i> Philip Smead</td><td>15/1/2018</td><td>$94</td>
+                            <td><span class="delivered">Delivered</span></td>
+                            <td>
+                                <button class="editBtn">Edit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#14256</td><td><i class="fa fa-user" aria-hidden="true"></i> Philip Smead</td><td>15/1/2018</td><td>$94</td>
+                            <td><span class="cancel">Cancel</span></td>
+                            <td>
+                                <button class="editBtn">Edit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#14256</td><td><i class="fa fa-user" aria-hidden="true"></i> Philip Smead</td><td>15/1/2018</td><td>$94</td>
+                            <td><span class="delivered">Delivered</span></td>
+                            <td>
+                                <button class="editBtn">Edit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>    
+                <div class="chat-container"><b>Chat</b>
+                    <div class="Thread">
+                        <div class="thread-ul">
+
+                            <div class="flex-left">
+                                <div class="flex-user-time">
+                                    <div><img src="images/profile.png" class="chatImg"></div>
+                                    <div class="time">10:00</div>
+                                </div>
+                                <div class="thread-name-msg-left">
+                                    <div class="triangle-left-textMsg"></div>
+                                    <div class="nameChat-left">John Deo</div>
+                                    <div class="msgChat-left">Hello!</div>
+                                </div>
+                            </div>
+
+                            <div class="flex-right">
+                                <div class="thread-name-msg-right">
+                                        <div class="nameChat-right">Smith</div>
+                                        <div class="msgChat-right">Hi, How are you doing? What about our next meeting?</div>
+                                </div>
+                                <div class="flex-user-time">
+                                        <div><img src="images/profile.png" class="chatImg"></div>
+                                        <div class="time">10:01</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="flex-left">
+                                <div class="flex-user-time">
+                                    <div><img src="images/profile.png" class="chatImg"></div>
+                                    <div class="time">10:04</div>
+                                </div>
+                                <div class="thread-name-msg-left">
+                                    <div class="triangle-left-textMsg"></div>
+                                    <div class="nameChat-left">John Deo</div>
+                                    <div class="msgChat-left">Yeah everything is fine</div>
+                                </div>
+                            </div>
+
+                            <div class="flex-right">
+                                    <div class="thread-name-msg-right">
+                                            <div class="nameChat-right">Smith</div>
+                                            <div class="msgChat-right">Wow that's great</div>
+                                    </div>
+                                    <div class="flex-user-time">
+                                            <div><img src="images/profile.png" class="chatImg"></div>
+                                            <div class="time">10:05</div>
+                                    </div>
+                            </div>                              
+                            <br>
+                        </div>
+                        <br><br>
+                        <input type="text" class="textMsg" placeholder="Enter your text">
+                        <button type="submit" class="sendBtn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#sidebar-btn').click(function(){
+                // console.log('Clicked')
+                $('body').toggleClass('hide-sidebar');
+            })
+        })
+    </script>
+</body>
+</html>
